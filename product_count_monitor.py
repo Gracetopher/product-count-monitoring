@@ -474,38 +474,38 @@ def main():
 
   df_new = run_check()
 
-df_all = pd.concat([df_old, df_new], ignore_index=True) if not df_old.empty else df_new
-df_all.to_csv(CSV_PATH, index=False)
+  df_all = pd.concat([df_old, df_new], ignore_index=True) if not df_old.empty else df_new
+  df_all.to_csv(CSV_PATH, index=False)
 
-#readable summary for "Summary" tab
-lines = ["# Product Count Check", "", "| Page | Count | Status |", "|---|---|---|"]
-for _, row in df_new.iterrows():
-  lines.append(f"| {row['name']} | {row['product_count']} | {row['status']} |")
+  #readable summary for "Summary" tab
+  lines = ["# Product Count Check", "", "| Page | Count | Status |", "|---|---|---|"]
+  for _, row in df_new.iterrows():
+    lines.append(f"| {row['name']} | {row['product_count']} | {row['status']} |")
 
-lines.append("")
-lines.append("## Changes vs. last run")
-found_change = False
-if not df_old.empty:
-  for url in df_new["url"].unique():
-    prev = df_old[df_old["url"] == url].tail(1)
-    cur = df_new[df_new["url"] == url].tail(1)
-    if prev.empty or curr.empty:
-      continue
-    prev_count = prev["product_count"].values[0]
-    curr_count = curr["product_count"].values[0]
-    if pd.nota(prev_count) and pd.nota(curr_count) and prev_count != curr_count:
-      found_change = True
-      lines.append(f"- ⚠️ **{url}**: {int(pref_count)} -> {int(curr_count)}")
-  if not found_change:
-    lines.append("No changes detected.")
+  lines.append("")
+  lines.append("## Changes vs. last run")
+  found_change = False
+  if not df_old.empty:
+    for url in df_new["url"].unique():
+      prev = df_old[df_old["url"] == url].tail(1)
+      cur = df_new[df_new["url"] == url].tail(1)
+      if prev.empty or curr.empty:
+        continue
+      prev_count = prev["product_count"].values[0]
+      curr_count = curr["product_count"].values[0]
+      if pd.nota(prev_count) and pd.nota(curr_count) and prev_count != curr_count:
+        found_change = True
+        lines.append(f"- ⚠️ **{url}**: {int(pref_count)} -> {int(curr_count)}")
+    if not found_change:
+      lines.append("No changes detected.")
 
-summary = "\n".join(lines)
-print(summary)
+  summary = "\n".join(lines)
+  print(summary)
 
-step_summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
-if step_summary_file:
-  with open(step_summary_file, "a") as f:
-    f.write(summary + "\n")
+  step_summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
+  if step_summary_file:
+    with open(step_summary_file, "a") as f:
+      f.write(summary + "\n")
 
 if __name__ == "__main__":
   main()
