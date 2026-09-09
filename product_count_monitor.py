@@ -430,7 +430,7 @@ HEADERS = {
   )
 }
 
-CSV_Path = os.path.join(os.path.dirname(__file__), "data", "product_count_log.csv")
+CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "product_count_log.csv")
 
 def get_product_count(url: str):
   """Fetch a page and pull out first number matching COUNT_PATTERN"""
@@ -470,7 +470,7 @@ def run_check() -> pd.DataFrame:
 
 def main():
   os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
-  df_old = pd.read_csv(CSV_Path) if os.path.exists(CSV_PATH) else pd.DataFrame()
+  df_old = pd.read_csv(CSV_PATH) if os.path.exists(CSV_PATH) else pd.DataFrame()
 
   df_new = run_check()
 
