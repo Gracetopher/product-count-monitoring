@@ -497,7 +497,7 @@ if not df_old.empty:
       found_change = True
       lines.append(f"- ⚠️ **{url}**: {int(pref_count)} -> {int(curr_count)}")
   if not found_change:
-    (lines.append("No changes detected.")
+    lines.append("No changes detected.")
 
    summary = "\n".join(lines)
     print(summary)
