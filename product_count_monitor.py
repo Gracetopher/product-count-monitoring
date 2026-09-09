@@ -441,7 +441,7 @@ CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "product_count_log.cs
 
 SENTINEL_THRESHOLD = 150
 
-KNOWN_LARGE_CATALOG_URLS = {
+KNOWN_LARGE_CATALOG_URLS = [
   {"name": "Versandkostenfrei","url": "https://www.medion.com/de/shop/versandkostenfrei"},
   {"name": "Paypal null Prozent Finanzierung","url": "https://www.medion.com/de/shop/paypal-null-prozent-finanzierung"},
   {"name": "Geschenke bis 250€","url": "https://www.medion.com/de/shop/geschenke-bis-250-euro"},
@@ -451,6 +451,7 @@ KNOWN_LARGE_CATALOG_URLS = {
   {"name": "Geschenke bis 250€","url": "https://www.medion.com/at/shop/geschenke-bis-250-euro"},
   {"name": "Geschenke bis 100€","url": "https://www.medion.com/at/shop/geschenke-bis-100-euro"},
   {"name": "Angebote bei MEDION","url": "https://www.medion.com/at/shop/angebote"},
+]
 
 def get_product_count(url: str):
   """Fetch a page and pull out first number matching COUNT_PATTERN"""
