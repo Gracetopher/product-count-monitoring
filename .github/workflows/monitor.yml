@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {} #allows for manual triggering from Actions tab
 
 permissions:
-  content: write
+  contents: write
 
 jobs:
   check-product-counts:
