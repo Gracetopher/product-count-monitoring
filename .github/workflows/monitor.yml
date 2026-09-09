@@ -1,6 +1,6 @@
 name: Product Count Monitor
 
-on:
+'on':
   schedule:
     #  runs hourly at the top of the hour. Edit cron expression to change.
     - cron: "0 * * * *"
