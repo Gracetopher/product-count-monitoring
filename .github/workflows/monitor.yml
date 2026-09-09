@@ -21,7 +21,7 @@ jobs:
           Python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r .github/workflows/requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Run product count check
         run: python product_count_monitor.py
