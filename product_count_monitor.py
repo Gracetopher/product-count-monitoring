@@ -498,9 +498,9 @@ def main():
         continue
       prev_count = prev["product_count"].values[0]
       curr_count = curr["product_count"].values[0]
-      if pd.nota(prev_count) and pd.nota(curr_count) and prev_count != curr_count:
+      if pd.notna(prev_count) and pd.notna(curr_count) and prev_count != curr_count:
         found_change = True
-        lines.append(f"- ⚠️ **{url}**: {int(pref_count)} -> {int(curr_count)}")
+        lines.append(f"- ⚠️ **{url}**: {int(prev_count)} -> {int(curr_count)}")
     if not found_change:
       lines.append("No changes detected.")
 
