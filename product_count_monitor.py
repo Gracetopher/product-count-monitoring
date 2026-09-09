@@ -499,8 +499,8 @@ if not df_old.empty:
   if not found_change:
     lines.append("No changes detected.")
 
-   summary = "\n".join(lines)
-    print(summary)
+summary = "\n".join(lines)
+print(summary)
 
 step_summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
 if step_summary_file:
