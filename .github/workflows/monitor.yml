@@ -24,6 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run product count check
+        id: check
         run: python product_count_monitor.py
 
       - name: Commit updated log
@@ -33,3 +34,19 @@ jobs:
           git add data/product_count_log.csv
           git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date + '%Y-%m-%d %H:%M %Z')"
           git push
+          
+  # Only fires when the python script detected a 0 <-> non-zero
+  # transition on at least one URL (see `changed` output above).
+  - name: Send alert email
+  if: steps.check.outputs.changed == 'true'
+  uses: dawidd6/action-send-mail@v3
+  with:
+    server_address: smtp.gmail.com
+    server_port: 465
+    secure: true
+    username: ${{ secrets.MAIL_USERNAME }}
+    password: ${{ secrets.MAIL_PASSWORD }}
+    from: Product Count Monitor <${{ secrets.MAIL_USERNAME }}>
+    to: ${{ secrets.MAIL_TO }}
+    subject: "⚠️ Product count: stock status changed"
+    body: file://alert_body.txt
