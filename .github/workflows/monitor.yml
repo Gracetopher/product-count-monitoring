@@ -1,12 +1,13 @@
 name: Product Count Monitor
+
 on:
   schedule:
-  # runs hourly at the top of the hour. Edit cron expression to change
+    #  runs hourly at the top of the hour. Edit cron expression to change.
     - cron: "0 * * * *"
-  workflow_dispatch: {} #allows for manual triggering from Actions tab
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 permissions:
-  contents: write
+  contents: write   # needed so the workflow can commit the updated CSV log
 
 jobs:
   check-product-counts:
@@ -32,20 +33,20 @@ jobs:
           git config user.name "product-count-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/product_count_log.csv
-          git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date + '%Y-%m-%d %H:%M %Z')"
+          git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date +'%Y-%m-%d %H:%M %Z')"
           git push
-          
-    # Only fires when the python script detected a 0 <-> non-zero transition on at least one URL (see `changed` output above).
-    - name: Send alert email
-    if: steps.check.outputs.changed == 'true'
-    uses: dawidd6/action-send-mail@v3
-    with:
-      server_address: smtp.gmail.com
-      server_port: 465
-      secure: true
-      username: ${{ secrets.MAIL_USERNAME }}
-      password: ${{ secrets.MAIL_PASSWORD }}
-      from: Product Count Monitor <${{ secrets.MAIL_USERNAME }}>
-      to: ${{ secrets.MAIL_TO }}
-      subject: "⚠️ Product count: stock status changed"
-      body: file://alert_body.txt
+
+      # Only fires when the python script detected a 0 <-> non-zero transition on at least one URL (see `changed` output above)).
+      - name: Send alert email
+        if: steps.check.outputs.changed == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Product Count Monitor <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: "⚠️ Product count: stock status changed"
+          body: file://alert_body.txt
