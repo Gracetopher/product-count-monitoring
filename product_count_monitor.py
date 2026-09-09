@@ -415,6 +415,11 @@ URLS = [
   {"name": "Alexa", "url": "https://www.medion.com/at/shop/alexa"},
   {"name": "Akoya PCs", "url": "https://www.medion.com/at/shop/akoya-pcs"},
   {"name": "Akku-Stielstaubsauger", "url": "https://www.medion.com/at/shop/akku-stielstaubsauger"},
+  {"name": "Blue Days","url": "https://www.medion.com/at/shop/blue-days"},
+  {"name": "Weekend-Sale","url": "https://www.medion.com/at/shop/weekend-sale"},
+  {"name": "Blue Days","url": "https://www.medion.com/de/shop/blue-days"},
+  {"name": "Gaming Days","url": "https://www.medion.com/de/shop/gaming-days"},
+  {"name": "Weekend Sale","url": "https://www.medion.com/de/shop/weekend-sale"},  
 ]
 
 #matches Produkte or Produkt
