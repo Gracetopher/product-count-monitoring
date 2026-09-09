@@ -572,7 +572,13 @@ def main():
     df_new = run_check()
     df_all = pd.concat([df_old, df_new], ignore_index=True) if not df_old.empty else df_new
     df_all.to_csv(CSV_PATH, index=False)
-    build_summary(df_all).to_csv(SUMMARY_CSV_PATH, index=False)
+    build_summary(df_all).to_csv(
+        SUMMARY_CSV_PATH,
+        index=False,
+        sep=";",
+        decimal=",",
+        encoding="utf-8-sig",
+    )
 
     # ---- Readable summary for the Actions "Summary" tab ----
     lines = ["# Product Count Check", "", "| Name | URL | Count | Raw | Status |", "|---|---|---|---|---|"]
