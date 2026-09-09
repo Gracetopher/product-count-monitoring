@@ -1,0 +1,35 @@
+name: Product Count Monitor
+on:
+  Schedule:
+  # runs hourly at the top of the hour. Edit cron expression to change
+    - cron: "0 * * * *"
+  workflow_dispatch: {} #allows for manual triggering from Actions tab
+
+permissions:
+  content: write
+
+jobs:
+  check-product-counts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          Python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run product count check
+        run: python product_count_monitor.py
+
+      - name: Commit updated log
+        run: |
+          git config user.name "product-count-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/product_count_log.csv
+          git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date + '%Y-%m-%d %H:%M %Z')"
+          git push
