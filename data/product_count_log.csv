@@ -796,3 +796,404 @@ timestamp,name,url,product_count,status
 2026-09-09 12:03:32 CEST,Blue Days,https://www.medion.com/de/shop/blue-days,,NOT_FOUND
 2026-09-09 12:03:32 CEST,Gaming Days,https://www.medion.com/de/shop/gaming-days,,NOT_FOUND
 2026-09-09 12:03:32 CEST,Weekend Sale,https://www.medion.com/de/shop/weekend-sale,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Zyklon Staubsauger,https://www.medion.com/de/shop/zyklon-staubsauger,5.0,OK
+2026-09-09 14:22:01 CEST,Work from Home PCs,https://www.medion.com/de/shop/work-from-home-pcs,9.0,OK
+2026-09-09 14:22:01 CEST,work-from-home-alle,https://www.medion.com/de/shop/work-from-home-alle,19.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter Alexa,https://www.medion.com/de/shop/alexa-saugroboter,8.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter Alexa,https://www.medion.com/at/shop/alexa-saugroboter,8.0,OK
+2026-09-09 14:22:01 CEST,Windows Update,https://www.medion.com/de/shop/windows-update,51.0,OK
+2026-09-09 14:22:01 CEST,Versandkostenfrei,https://www.medion.com/de/shop/versandkostenfrei,303.0,OK
+2026-09-09 14:22:01 CEST,Ventilatoren & Klimageräte,https://www.medion.com/de/shop/ventilatoren-klimageraete,5.0,OK
+2026-09-09 14:22:01 CEST,Ventilatoren,https://www.medion.com/de/shop/ventilatoren,4.0,OK
+2026-09-09 14:22:01 CEST,Vidaa TVs,https://www.medion.com/de/shop/tv/vidaa,23.0,OK
+2026-09-09 14:22:01 CEST,TiVo TVs,https://www.medion.com/de/shop/tv/tivo,4.0,OK
+2026-09-09 14:22:01 CEST,TV-Soundbars,https://www.medion.com/de/shop/tv/soundbars,4.0,OK
+2026-09-09 14:22:01 CEST,Smart TV,https://www.medion.com/de/shop/tv/smart-tv,32.0,OK
+2026-09-09 14:22:01 CEST,QLED TVs,https://www.medion.com/de/shop/tv/qled,13.0,OK
+2026-09-09 14:22:01 CEST,Premium-TVs,https://www.medion.com/de/shop/tv/premium,13.0,OK
+2026-09-09 14:22:01 CEST,OLED TVs,https://www.medion.com/de/shop/tv/oled,2.0,OK
+2026-09-09 14:22:01 CEST,TVs mit Soundbar,https://www.medion.com/de/shop/tv/mit-soundbar,62.0,OK
+2026-09-09 14:22:01 CEST,Mini LED Tvs,https://www.medion.com/de/shop/tv/mini-led,2.0,OK
+2026-09-09 14:22:01 CEST,Mobilen TVs,https://www.medion.com/de/shop/tv/mini,1.0,OK
+2026-09-09 14:22:01 CEST,TV Kaufberater Micro Dimming,https://www.medion.com/de/shop/tv/micro-dimming,11.0,OK
+2026-09-09 14:22:01 CEST,TV HDR,https://www.medion.com/de/shop/tv/hdr,48.0,OK
+2026-09-09 14:22:01 CEST,HD TVs,https://www.medion.com/de/shop/tv/hd,5.0,OK
+2026-09-09 14:22:01 CEST,Fire TVs,https://www.medion.com/de/shop/tv/fire-tv,414.0,OK
+2026-09-09 14:22:01 CEST,FHD TVs,https://www.medion.com/de/shop/tv/fhd,17.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger,https://www.medion.com/de/shop/tv/einsteiger,6.0,OK
+2026-09-09 14:22:01 CEST,TV Dolby Vision,https://www.medion.com/de/shop/tv/dolby-vision,31.0,OK
+2026-09-09 14:22:01 CEST,bis ca. 80 cm (32''),https://www.medion.com/de/shop/tv/bis-32-zoll,10.0,OK
+2026-09-09 14:22:01 CEST,Angebote TV,https://www.medion.com/de/shop/tv/angebote,25.0,OK
+2026-09-09 14:22:01 CEST,Android TVs,https://www.medion.com/de/shop/tv/android-tv,8.0,OK
+2026-09-09 14:22:01 CEST,ab ca. 139 cm (55“ ),https://www.medion.com/de/shop/tv/ab-55-zoll,22.0,OK
+2026-09-09 14:22:01 CEST,4K UHD TVs,https://www.medion.com/de/shop/tv/4k-uhd,36.0,OK
+2026-09-09 14:22:01 CEST,ca. 98 cm - 126 cm (39“ bis 50“),https://www.medion.com/de/shop/tv/39-bis-50-zoll,26.0,OK
+2026-09-09 14:22:01 CEST,Alle TVs,https://www.medion.com/de/shop/tv,58.0,OK
+2026-09-09 14:22:01 CEST,Turmventilatoren,https://www.medion.com/de/shop/turmventilatoren,414.0,OK
+2026-09-09 14:22:01 CEST,Topseller,https://www.medion.com/de/shop/topseller,19.0,OK
+2026-09-09 14:22:01 CEST,Alle Tablets,https://www.medion.com/de/shop/tablets-alle,2.0,OK
+2026-09-09 14:22:01 CEST,Staubsauger,https://www.medion.com/de/shop/staubsauger-alle,10.0,OK
+2026-09-09 14:22:01 CEST,Sportliche Angebote,https://www.medion.com/de/shop/sportliche-angebote,25.0,OK
+2026-09-09 14:22:01 CEST,Sommer Angebote,https://www.medion.com/de/shop/sommer-angebote,52.0,OK
+2026-09-09 14:22:01 CEST,Smarte Produkte alle,https://www.medion.com/de/shop/smarte-produkte-alle,3.0,OK
+2026-09-09 14:22:01 CEST,Poolroboter,https://www.medion.com/de/shop/haushalt/poolroboter,1.0,OK
+2026-09-09 14:22:01 CEST,Alle Laptops,https://www.medion.com/de/shop/searchpages/alle-laptops,27.0,OK
+2026-09-09 14:22:01 CEST,Poolroboter,https://www.medion.com/at/shop/haushalt/poolroboter,1.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter S-Serie,https://www.medion.com/at/shop/saugroboter-s-serie,7.0,OK
+2026-09-09 14:22:01 CEST,Rückgaberecht,https://www.medion.com/de/shop/rueckgaberecht,414.0,OK
+2026-09-09 14:22:01 CEST,PC-Zubehör,https://www.medion.com/de/shop/pc/zubehoer,6.0,OK
+2026-09-09 14:22:01 CEST,Mäuse und Tastaturen,https://www.medion.com/de/shop/pc/tastatur-maus,2.0,OK
+2026-09-09 14:22:01 CEST,Monitore,https://www.medion.com/de/shop/pc/monitor,4.0,OK
+2026-09-09 14:22:01 CEST,Mini PCs,https://www.medion.com/de/shop/pc/mini,6.0,OK
+2026-09-09 14:22:01 CEST,Drucker,https://www.medion.com/de/shop/pc/drucker,2.0,OK
+2026-09-09 14:22:01 CEST,Desktop-PCs,https://www.medion.com/de/shop/pc/desktop,1.0,OK
+2026-09-09 14:22:01 CEST,Angebote PC & Monitore,https://www.medion.com/de/shop/pc/angebote,6.0,OK
+2026-09-09 14:22:01 CEST,All-in-One-PCs,https://www.medion.com/de/shop/pc/all-in-one,2.0,OK
+2026-09-09 14:22:01 CEST,Alle PCs,https://www.medion.com/de/shop/pc/alle,9.0,OK
+2026-09-09 14:22:01 CEST,Paypal null Prozent Finanzierung,https://www.medion.com/de/shop/paypal-null-prozent-finanzierung,205.0,OK
+2026-09-09 14:22:01 CEST,Party,https://www.medion.com/de/shop/party,12.0,OK
+2026-09-09 14:22:01 CEST,Nvidia 50er Serie Produkte,https://www.medion.com/de/shop/nvidia-rtx-serie-50,21.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA RTX Produkte,https://www.medion.com/de/shop/nvidia-rtx-produkte,31.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA RTX Laptops,https://www.medion.com/de/shop/nvidia-rtx-laptops,15.0,OK
+2026-09-09 14:22:01 CEST,Nvidia rtx,https://www.medion.com/de/shop/nvidia-rtx,31.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA PC,https://www.medion.com/de/shop/nvidia-pc,16.0,OK
+2026-09-09 14:22:01 CEST,Neuheiten,https://www.medion.com/de/shop/neuheiten,18.0,OK
+2026-09-09 14:22:01 CEST,Multimedia-PC,https://www.medion.com/de/shop/multimedia-pc,7.0,OK
+2026-09-09 14:22:01 CEST,Monitor-Angebote,https://www.medion.com/de/shop/monitore/angebote,6.0,OK
+2026-09-09 14:22:01 CEST,Microsoft Jumpstart Gaming,https://www.medion.com/de/shop/microsoft-jumpstart-gaming,31.0,OK
+2026-09-09 14:22:01 CEST,Microsoft Jumpstart,https://www.medion.com/de/shop/microsoft-jumpstart,52.0,OK
+2026-09-09 14:22:01 CEST,Luftreiniger Alle,https://www.medion.com/de/shop/luftreiniger-alle,414.0,OK
+2026-09-09 14:22:01 CEST,TV-Aktion,https://www.medion.com/de/shop/lp/tv-aktion,15.0,OK
+2026-09-09 14:22:01 CEST,Laptop & PC Week,https://www.medion.com/de/shop/lp/laptop-pc-week,23.0,OK
+2026-09-09 14:22:01 CEST,Intel Produkte,https://www.medion.com/de/shop/lp/intel-produkte,31.0,OK
+2026-09-09 14:22:01 CEST,Intel PC,https://www.medion.com/de/shop/lp/intel-pc,11.0,OK
+2026-09-09 14:22:01 CEST,Intel Games Bundle Produkte,https://www.medion.com/de/shop/lp/intel-games-bundle-produkte,19.0,OK
+2026-09-09 14:22:01 CEST,Defender 17 P10,https://www.medion.com/de/shop/lp/erazer/defender-17-p10,3.0,OK
+2026-09-09 14:22:01 CEST,Beast 16 X10,https://www.medion.com/de/shop/lp/erazer/beast-16-x10,4.0,OK
+2026-09-09 14:22:01 CEST,Lieferung bis Weihnachten,https://www.medion.com/de/shop/lieferung-bis-weihnachten,414.0,OK
+2026-09-09 14:22:01 CEST,Lenovo Produkte,https://www.medion.com/de/shop/lenovo-produkte,4.0,OK
+2026-09-09 14:22:01 CEST,Laptop-Zubehör,https://www.medion.com/de/shop/laptops/zubehoer,5.0,OK
+2026-09-09 14:22:01 CEST,Sprchrgd Laptops,https://www.medion.com/de/shop/laptops/sprchrgd,2.0,OK
+2026-09-09 14:22:01 CEST,Multimedia-Laptops,https://www.medion.com/de/shop/laptops/multimedia,11.0,OK
+2026-09-09 14:22:01 CEST,KI gestützte Laptops,https://www.medion.com/de/shop/laptops/ki,3.0,OK
+2026-09-09 14:22:01 CEST,Intel Core i7,https://www.medion.com/de/shop/laptops/intel-core-i7,4.0,OK
+2026-09-09 14:22:01 CEST,Intel Core i5,https://www.medion.com/de/shop/laptops/intel-core-i5,2.0,OK
+2026-09-09 14:22:01 CEST,Intel Core Laptops,https://www.medion.com/de/shop/laptops/intel-core,19.0,OK
+2026-09-09 14:22:01 CEST,Homeoffice Laptops,https://www.medion.com/de/shop/laptops/homeoffice,12.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger-Laptops,https://www.medion.com/de/shop/laptops/einsteiger,1.0,OK
+2026-09-09 14:22:01 CEST,Laptops Angebote,https://www.medion.com/de/shop/laptops/angebote,9.0,OK
+2026-09-09 14:22:01 CEST,AMD Ryzen,https://www.medion.com/de/shop/laptops/amd-ryzen,4.0,OK
+2026-09-09 14:22:01 CEST,18'' Laptops,https://www.medion.com/de/shop/laptops/18-zoll,1.0,OK
+2026-09-09 14:22:01 CEST,17'' Laptops,https://www.medion.com/de/shop/laptops/17-zoll,6.0,OK
+2026-09-09 14:22:01 CEST,16'' Laptops,https://www.medion.com/de/shop/laptops/16-zoll,414.0,OK
+2026-09-09 14:22:01 CEST,15'' Laptops,https://www.medion.com/de/shop/laptops/15-zoll,2.0,OK
+2026-09-09 14:22:01 CEST,14'' Laptops,https://www.medion.com/de/shop/laptops/14-zoll,4.0,OK
+2026-09-09 14:22:01 CEST,Alle Laptops,https://www.medion.com/de/shop/laptops,12.0,OK
+2026-09-09 14:22:01 CEST,Reinigungsgeräte,https://www.medion.com/de/shop/kuechengeraete-reinigung,30.0,OK
+2026-09-09 14:22:01 CEST,Frühstück,https://www.medion.com/de/shop/kuechengeraete-fruehstueck,11.0,OK
+2026-09-09 14:22:01 CEST,Wasserkocher,https://www.medion.com/de/shop/kueche/wasserkocher,4.0,OK
+2026-09-09 14:22:01 CEST,Toaster,https://www.medion.com/de/shop/kueche/toaster,4.0,OK
+2026-09-09 14:22:01 CEST,Gaming Days,https://www.medion.com/at/shop/gaming-days,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Mini Kühlschrank,https://www.medion.com/de/shop/kueche/mini-kuehlschraenke,4.0,OK
+2026-09-09 14:22:01 CEST,Mikrowellen,https://www.medion.com/de/shop/kueche/mikrowellen,22.0,OK
+2026-09-09 14:22:01 CEST,Kühlschränke,https://www.medion.com/de/shop/kueche/kuehlschraenke,10.0,OK
+2026-09-09 14:22:01 CEST,Kühl- & Gefrierschränke,https://www.medion.com/de/shop/kueche/kuehl-gefrierschraenke,8.0,OK
+2026-09-09 14:22:01 CEST,Kühlen & Gefrieren,https://www.medion.com/de/shop/kueche/kuehlen-gefrieren,26.0,OK
+2026-09-09 14:22:01 CEST,Kühlboxen,https://www.medion.com/de/shop/kueche/kuehlboxen,4.0,OK
+2026-09-09 14:22:01 CEST,Küchenmaschinen,https://www.medion.com/de/shop/kueche/kuechenmaschinen,9.0,OK
+2026-09-09 14:22:01 CEST,Küchenkleingeräte,https://www.medion.com/de/shop/kueche/kuechenkleingeraete,65.0,OK
+2026-09-09 14:22:01 CEST,Kochen & Zubereiten,https://www.medion.com/de/shop/kueche/kuechengeraete-kochen,63.0,OK
+2026-09-09 14:22:01 CEST,Kaffeemaschinen,https://www.medion.com/de/shop/kueche/kaffeemaschinen,3.0,OK
+2026-09-09 14:22:01 CEST,Induktionskochplatten,https://www.medion.com/de/shop/kueche/induktionskochplatten,6.0,OK
+2026-09-09 14:22:01 CEST,Heißluftfritteuse mit zwei Kammern,https://www.medion.com/de/shop/kueche/heissluftfritteusen/doppelkammer,4.0,OK
+2026-09-09 14:22:01 CEST,Alle Heissluftfritteusen,https://www.medion.com/de/shop/kueche/heissluftfritteusen,19.0,OK
+2026-09-09 14:22:01 CEST,Grills,https://www.medion.com/de/shop/kueche/grills,1.0,OK
+2026-09-09 14:22:01 CEST,Geschirrspüler,https://www.medion.com/de/shop/kueche/geschirrspueler,9.0,OK
+2026-09-09 14:22:01 CEST,Gefrierschränke,https://www.medion.com/de/shop/kueche/gefrierschraenke,8.0,OK
+2026-09-09 14:22:01 CEST,Eiswürfelmaschinen,https://www.medion.com/de/shop/kueche/eiswuerfelmaschinen,2.0,OK
+2026-09-09 14:22:01 CEST,Eismaschinen,https://www.medion.com/de/shop/kueche/eismaschine,6.0,OK
+2026-09-09 14:22:01 CEST,Brotbackautomaten,https://www.medion.com/de/shop/kueche/brotbackautomaten,2.0,OK
+2026-09-09 14:22:01 CEST,Küchen-Angebote,https://www.medion.com/de/shop/kueche/angebote,35.0,OK
+2026-09-09 14:22:01 CEST,Alle Küchengeräte,https://www.medion.com/de/shop/kueche/alle,65.0,OK
+2026-09-09 14:22:01 CEST,Fitness & Gesundheit,https://www.medion.com/de/shop/koerperpflege-gesundheit,8.0,OK
+2026-09-09 14:22:01 CEST,Kochen & Backen,https://www.medion.com/de/shop/kochen-backen,57.0,OK
+2026-09-09 14:22:01 CEST,Klimageräte,https://www.medion.com/de/shop/klimageraete,2.0,OK
+2026-09-09 14:22:01 CEST,Kabelloses Glätteisen HS2,https://www.medion.com/de/shop/kabelloses-glaetteisen-hs2,2.0,OK
+2026-09-09 14:22:01 CEST,Inventur Sale,https://www.medion.com/at/shop/inventur-sale,65.0,OK
+2026-09-09 14:22:01 CEST,Internetradios,https://www.medion.com/de/shop/internetradios,7.0,OK
+2026-09-09 14:22:01 CEST,Intel® Core™ Ultra Prozessoren,https://www.medion.com/de/shop/intel-core-ultra-series-2-produkte,25.0,OK
+2026-09-09 14:22:01 CEST,Intel Core PCs,https://www.medion.com/de/shop/intel-core-pcs,2.0,OK
+2026-09-09 14:22:01 CEST,Intel Core Gaming Laptops,https://www.medion.com/de/shop/intel-core-gaming-laptops,2.0,OK
+2026-09-09 14:22:01 CEST,Intel 13 Alle,https://www.medion.com/de/shop/intel-13-alle,6.0,OK
+2026-09-09 14:22:01 CEST,Hobby & Freizeit,https://www.medion.com/de/shop/hobby-und-freizeit,12.0,OK
+2026-09-09 14:22:01 CEST,High End Gaming PCs,https://www.medion.com/de/shop/high-end-gaming-pc,9.0,OK
+2026-09-09 14:22:01 CEST,High End Gaming Notebooks,https://www.medion.com/de/shop/high-end-gaming-notebooks,7.0,OK
+2026-09-09 14:22:01 CEST,Heizen & Kühlen,https://www.medion.com/de/shop/heizen-kuehlen,9.0,OK
+2026-09-09 14:22:01 CEST,Haushalt-Zubehör,https://www.medion.com/de/shop/haushalt-zubehoer,58.0,OK
+2026-09-09 14:22:01 CEST,Alexa Haushalt,https://www.medion.com/de/shop/haushalt-alexa,11.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-p400-p350,https://www.medion.com/de/shop/haushalt/stielstaubsauger/zubehoer-p400-p350,4.0,OK
+2026-09-09 14:22:01 CEST,Alle Reinigungsgeräte,https://www.medion.com/de/shop/haushalt/reinigungsgeraete,30.0,OK
+2026-09-09 14:22:01 CEST,Polsterreiniger,https://www.medion.com/de/shop/haushalt/polsterreiniger,1.0,OK
+2026-09-09 14:22:01 CEST,Overlock Nähmaschinen,https://www.medion.com/de/shop/haushalt/naehmaschinen/overlock,2.0,OK
+2026-09-09 14:22:01 CEST,Freiarm Nähmaschinen,https://www.medion.com/de/shop/haushalt/naehmaschinen/freiarm,4.0,OK
+2026-09-09 14:22:01 CEST,Digitale Nähmaschinen,https://www.medion.com/de/shop/haushalt/naehmaschinen/digital,2.0,OK
+2026-09-09 14:22:01 CEST,Nähmaschinen,https://www.medion.com/de/shop/haushalt/naehmaschinen,11.0,OK
+2026-09-09 14:22:01 CEST,luftentfeuchter,https://www.medion.com/de/shop/haushalt/heizen-kuehlen/luftentfeuchter,3.0,OK
+2026-09-09 14:22:01 CEST,Alle Haushalt- und Freizeit-Produkte,https://www.medion.com/de/shop/haushalt/alle,60.0,OK
+2026-09-09 14:22:01 CEST,Haushalt- & Freizeit-Angebote,https://www.medion.com/de/shop/haushalt/angebote,27.0,OK
+2026-09-09 14:22:01 CEST,Alle Haushalt- und Freizeit-Produkte,https://www.medion.com/at/shop/haushalt-freizeit-alle,53.0,OK
+2026-09-09 14:22:01 CEST,Handstaubsauger,https://www.medion.com/de/shop/handstaubsauger,5.0,OK
+2026-09-09 14:22:01 CEST,Haartrockner LIFE HD2,https://www.medion.com/de/shop/haartrockner-life-hd2,2.0,OK
+2026-09-09 14:22:01 CEST,Haartrockner,https://www.medion.com/de/shop/haarpflege/haartrockner,2.0,OK
+2026-09-09 14:22:01 CEST,Glätteisen,https://www.medion.com/de/shop/haarpflege/glaetteisen,4.0,OK
+2026-09-09 14:22:01 CEST,Glättbürsten,https://www.medion.com/de/shop/haarpflege/glaettbuersten,2.0,OK
+2026-09-09 14:22:01 CEST,Haarpflege,https://www.medion.com/de/shop/haarpflege,8.0,OK
+2026-09-09 14:22:01 CEST,Glätteisen LIFE HS1,https://www.medion.com/de/shop/glaetteisen-life-hs1,2.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 400 Euro,https://www.medion.com/de/shop/geschenke-bis-400-euro,87.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 250€,https://www.medion.com/de/shop/geschenke-bis-250-euro,168.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 100€,https://www.medion.com/de/shop/geschenke-bis-100-euro,161.0,OK
+2026-09-09 14:22:01 CEST,Geschenke ab 400 Euro,https://www.medion.com/de/shop/geschenke-ab-400-euro,63.0,OK
+2026-09-09 14:22:01 CEST,Garten Angebote,https://www.medion.com/de/shop/garten-angebote,17.0,OK
+2026-09-09 14:22:01 CEST,Slush Eis Maschine,https://www.medion.com/at/shop/kueche/slush-eis-maschine,6.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Zubehör,https://www.medion.com/de/shop/gaming/zubehoer,3.0,OK
+2026-09-09 14:22:01 CEST,Gaming-PCs,https://www.medion.com/de/shop/gaming/pc,16.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Monitore,https://www.medion.com/de/shop/gaming/monitor,3.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Laptops,https://www.medion.com/de/shop/gaming/laptop,15.0,OK
+2026-09-09 14:22:01 CEST,Angebote Gaming,https://www.medion.com/de/shop/gaming/angebote,14.0,OK
+2026-09-09 14:22:01 CEST,Alle Gaming Produkte,https://www.medion.com/de/shop/gaming/alle,37.0,OK
+2026-09-09 14:22:01 CEST,Frühjahrsputz,https://www.medion.com/de/shop/fruehjahrsputz,30.0,OK
+2026-09-09 14:22:01 CEST,weitere Modelle,https://www.medion.com/de/shop/fm-radios,17.0,OK
+2026-09-09 14:22:01 CEST,Festival,https://www.medion.com/de/shop/festival,27.0,OK
+2026-09-09 14:22:01 CEST,Heimkinosystem,https://www.medion.com/de/shop/entertainment,4.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger PC,https://www.medion.com/de/shop/einsteiger-pc,1.0,OK
+2026-09-09 14:22:01 CEST,DAB Radios,https://www.medion.com/de/shop/dab-radios,10.0,OK
+2026-09-09 14:22:01 CEST,Core Gaming PCs,https://www.medion.com/de/shop/core-gaming-pc,7.0,OK
+2026-09-09 14:22:01 CEST,Core Gaming Notebooks,https://www.medion.com/de/shop/core-gaming-notebooks,8.0,OK
+2026-09-09 14:22:01 CEST,Camping,https://www.medion.com/de/shop/camping,35.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Tablet,https://www.medion.com/de/shop/btu-tablets,2.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Radio,https://www.medion.com/de/shop/btu-radios,34.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Frühstück,https://www.medion.com/de/shop/btu-fruehstuecken,10.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Freizeit,https://www.medion.com/de/shop/btu-freizeit,43.0,OK
+2026-09-09 14:22:01 CEST,Bodenreiniger,https://www.medion.com/de/shop/bodenreiniger,2.0,OK
+2026-09-09 14:22:01 CEST,Bluetooth Lautsprecher,https://www.medion.com/de/shop/bluetooth-lautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Back to School,https://www.medion.com/de/shop/back-to-school,23.0,OK
+2026-09-09 14:22:01 CEST,Wecker,https://www.medion.com/de/shop/audio/wecker,3.0,OK
+2026-09-09 14:22:01 CEST,Radios,https://www.medion.com/de/shop/audio/radio,34.0,OK
+2026-09-09 14:22:01 CEST,Partylautsprecher,https://www.medion.com/de/shop/audio/partylautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Audio-Systeme,https://www.medion.com/de/shop/audio/musikanlagen,12.0,OK
+2026-09-09 14:22:01 CEST,Lautsprecher,https://www.medion.com/de/shop/audio/lautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Küchen-unterbauradio,https://www.medion.com/de/shop/audio/kuechenunterbauradios,3.0,OK
+2026-09-09 14:22:01 CEST,Kopfhörer,https://www.medion.com/de/shop/audio/kopfhoerer,8.0,OK
+2026-09-09 14:22:01 CEST,Boomboxen,https://www.medion.com/de/shop/audio/boomboxen,12.0,OK
+2026-09-09 14:22:01 CEST,Bluetooth Kopfhörer,https://www.medion.com/de/shop/audio/bluetooth-kopfhoerer,6.0,OK
+2026-09-09 14:22:01 CEST,Baustellenradio,https://www.medion.com/de/shop/audio/baustellenradio,4.0,OK
+2026-09-09 14:22:01 CEST,Angebote Audio,https://www.medion.com/de/shop/audio/angebote,22.0,OK
+2026-09-09 14:22:01 CEST,Alle Audio Produkte,https://www.medion.com/de/shop/audio/alle,65.0,OK
+2026-09-09 14:22:01 CEST,Angebote bei MEDION,https://www.medion.com/de/shop/angebote,126.0,OK
+2026-09-09 14:22:01 CEST,Alexa,https://www.medion.com/de/shop/alexa,11.0,OK
+2026-09-09 14:22:01 CEST,Akoya PCs,https://www.medion.com/de/shop/akoya-pcs,1.0,OK
+2026-09-09 14:22:01 CEST,Akku-Stielstaubsauger,https://www.medion.com/de/shop/akku-stielstaubsauger,8.0,OK
+2026-09-09 14:22:01 CEST,Zyklon Staubsauger,https://www.medion.com/at/shop/zyklon-staubsauger,5.0,OK
+2026-09-09 14:22:01 CEST,Work from Home PCs,https://www.medion.com/at/shop/work-from-home-pcs,9.0,OK
+2026-09-09 14:22:01 CEST,work-from-home-alle,https://www.medion.com/at/shop/work-from-home-alle,19.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter,https://www.medion.com/de/shop/saugroboter/saugroboter-wischroboter,9.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter,https://www.medion.com/at/shop/saugroboter-wischroboter,9.0,OK
+2026-09-09 14:22:01 CEST,Windows Update,https://www.medion.com/at/shop/windows-update,50.0,OK
+2026-09-09 14:22:01 CEST,Versandkostenfrei,https://www.medion.com/at/shop/versandkostenfrei,268.0,OK
+2026-09-09 14:22:01 CEST,Ventilatoren & Klimageräte,https://www.medion.com/at/shop/ventilatoren-klimageraete,5.0,OK
+2026-09-09 14:22:01 CEST,Ventilatoren,https://www.medion.com/at/shop/ventilatoren,4.0,OK
+2026-09-09 14:22:01 CEST,TV Kaufberater Auflösungen,https://www.medion.com/at/shop/tv-hd-fhd-uhd,377.0,OK
+2026-09-09 14:22:01 CEST,TV Kaufberater Hintergrundbeleuchtung,https://www.medion.com/at/shop/tv-edge-led-direct-led,377.0,OK
+2026-09-09 14:22:01 CEST,Vidaa TVs,https://www.medion.com/at/shop/tv/vidaa,14.0,OK
+2026-09-09 14:22:01 CEST,TV-Soundbars,https://www.medion.com/at/shop/tv/soundbars,4.0,OK
+2026-09-09 14:22:01 CEST,Smart TV,https://www.medion.com/at/shop/tv/smart-tv,16.0,OK
+2026-09-09 14:22:01 CEST,QLED TVs,https://www.medion.com/at/shop/tv/qled,6.0,OK
+2026-09-09 14:22:01 CEST,Premium-TVs,https://www.medion.com/at/shop/tv/premium,4.0,OK
+2026-09-09 14:22:01 CEST,OLED TVs,https://www.medion.com/at/shop/tv/oled,377.0,OK
+2026-09-09 14:22:01 CEST,TVs mit Soundbar,https://www.medion.com/at/shop/tv/mit-soundbar,40.0,OK
+2026-09-09 14:22:01 CEST,Mobilen TVs,https://www.medion.com/at/shop/tv/mini,1.0,OK
+2026-09-09 14:22:01 CEST,TV Kaufberater Micro Dimming,https://www.medion.com/at/shop/tv/micro-dimming,6.0,OK
+2026-09-09 14:22:01 CEST,TV HDR,https://www.medion.com/at/shop/tv/hdr,26.0,OK
+2026-09-09 14:22:01 CEST,HD TVs,https://www.medion.com/at/shop/tv/hd,5.0,OK
+2026-09-09 14:22:01 CEST,Fire TVs,https://www.medion.com/at/shop/tv/fire-tv,377.0,OK
+2026-09-09 14:22:01 CEST,FHD TVs,https://www.medion.com/at/shop/tv/fhd,17.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger,https://www.medion.com/at/shop/tv/einsteiger,6.0,OK
+2026-09-09 14:22:01 CEST,TV Dolby Vision,https://www.medion.com/at/shop/tv/dolby-vision,12.0,OK
+2026-09-09 14:22:01 CEST,bis ca. 80 cm (32''),https://www.medion.com/at/shop/tv/bis-32-zoll,10.0,OK
+2026-09-09 14:22:01 CEST,TV Angebote,https://www.medion.com/at/shop/tv/angebote,19.0,OK
+2026-09-09 14:22:01 CEST,Android TVs,https://www.medion.com/at/shop/tv/android-tv,8.0,OK
+2026-09-09 14:22:01 CEST,4K UHD TVs,https://www.medion.com/at/shop/tv/4k-uhd,14.0,OK
+2026-09-09 14:22:01 CEST,ca. 98 cm - 126 cm (39“ bis 50“),https://www.medion.com/at/shop/tv/39-bis-50-zoll,26.0,OK
+2026-09-09 14:22:01 CEST,Alle TVs,https://www.medion.com/at/shop/tv,36.0,OK
+2026-09-09 14:22:01 CEST,Turmventilatoren,https://www.medion.com/at/shop/turmventilatoren,377.0,OK
+2026-09-09 14:22:01 CEST,Topseller,https://www.medion.com/at/shop/topseller,19.0,OK
+2026-09-09 14:22:01 CEST,Mäuse und Tastaturen,https://www.medion.com/at/shop/tastaturen-und-maeuse,2.0,OK
+2026-09-09 14:22:01 CEST,Alle Tablets,https://www.medion.com/at/shop/tablets-alle,2.0,OK
+2026-09-09 14:22:01 CEST,Staubsauger,https://www.medion.com/at/shop/staubsauger-alle,10.0,OK
+2026-09-09 14:22:01 CEST,Sportliche Angebote,https://www.medion.com/at/shop/sportliche-angebote,19.0,OK
+2026-09-09 14:22:01 CEST,Sommer Angebote,https://www.medion.com/at/shop/sommer-angebote,46.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter X-Serie,https://www.medion.com/de/shop/saugroboter/saugroboter-x-serie,9.0,OK
+2026-09-09 14:22:01 CEST,Smarte Produkte alle,https://www.medion.com/at/shop/smarte-produkte-alle,3.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter X-Serie,https://www.medion.com/at/shop/saugroboter-x-serie,9.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-x50,https://www.medion.com/de/shop/saugroboter/zubehoer-x50,4.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-x41-x42,https://www.medion.com/de/shop/saugroboter/zubehoer-x41-x42,6.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-x40,https://www.medion.com/de/shop/saugroboter/zubehoer-x40,4.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-x20,https://www.medion.com/de/shop/saugroboter/zubehoer-x20,5.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-x10,https://www.medion.com/de/shop/saugroboter/zubehoer-x10,3.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-s40,https://www.medion.com/de/shop/saugroboter/zubehoer-s40,2.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-s35,https://www.medion.com/de/shop/saugroboter/zubehoer-s35,414.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-s30,https://www.medion.com/de/shop/saugroboter/zubehoer-s30,414.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-s20,https://www.medion.com/de/shop/saugroboter/zubehoer-s20,3.0,OK
+2026-09-09 14:22:01 CEST,zubehoer-s05,https://www.medion.com/de/shop/saugroboter/zubehoer-s05,414.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter-Zubehör,https://www.medion.com/de/shop/saugroboter-zubehoer,48.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter-Zubehör,https://www.medion.com/at/shop/saugroboter-zubehoer,47.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter mit Wischfunktion,https://www.medion.com/de/shop/saug-wischroboter,9.0,OK
+2026-09-09 14:22:01 CEST,Saugroboter mit Wischfunktion,https://www.medion.com/at/shop/saug-wischroboter,9.0,OK
+2026-09-09 14:22:01 CEST,Rückgaberecht,https://www.medion.com/at/shop/rueckgaberecht,377.0,OK
+2026-09-09 14:22:01 CEST,Radios,https://www.medion.com/at/shop/radios,34.0,OK
+2026-09-09 14:22:01 CEST,QLED OLED TVs,https://www.medion.com/at/shop/qled-oled-tvs,6.0,OK
+2026-09-09 14:22:01 CEST,Performance-Fernseher,https://www.medion.com/at/shop/performance-fernseher,26.0,OK
+2026-09-09 14:22:01 CEST,Gaming-PCs,https://www.medion.com/at/shop/pc-gamer,16.0,OK
+2026-09-09 14:22:01 CEST,PC-Angebote,https://www.medion.com/at/shop/pc/angebote,6.0,OK
+2026-09-09 14:22:01 CEST,Partylautsprecher,https://www.medion.com/at/shop/partylautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Party,https://www.medion.com/at/shop/party,12.0,OK
+2026-09-09 14:22:01 CEST,Nvidia 50er Serie Produkte,https://www.medion.com/at/shop/nvidia-rtx-serie-50,20.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA RTX Produkte,https://www.medion.com/at/shop/nvidia-rtx-produkte,30.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA RTX Laptops,https://www.medion.com/at/shop/nvidia-rtx-laptops,14.0,OK
+2026-09-09 14:22:01 CEST,Nvidia rtx,https://www.medion.com/at/shop/nvidia-rtx,30.0,OK
+2026-09-09 14:22:01 CEST,NVIDIA PC,https://www.medion.com/at/shop/nvidia-pc,16.0,OK
+2026-09-09 14:22:01 CEST,Neuheiten,https://www.medion.com/at/shop/neuheiten,17.0,OK
+2026-09-09 14:22:01 CEST,Nähmaschinen,https://www.medion.com/at/shop/naehmaschinen,11.0,OK
+2026-09-09 14:22:01 CEST,Nähmaschine,https://www.medion.com/at/shop/naehmaschine,11.0,OK
+2026-09-09 14:22:01 CEST,Audio-Systeme,https://www.medion.com/at/shop/musikanlagen,12.0,OK
+2026-09-09 14:22:01 CEST,Multimedia-PC,https://www.medion.com/at/shop/multimedia-pc,7.0,OK
+2026-09-09 14:22:01 CEST,Monitor-Angebote,https://www.medion.com/at/shop/monitore/angebote,6.0,OK
+2026-09-09 14:22:01 CEST,Monitore,https://www.medion.com/at/shop/monitore,4.0,OK
+2026-09-09 14:22:01 CEST,Mini PCs,https://www.medion.com/at/shop/mini-pcs,6.0,OK
+2026-09-09 14:22:01 CEST,Microsoft Jumpstart Gaming,https://www.medion.com/at/shop/microsoft-jumpstart-gaming,30.0,OK
+2026-09-09 14:22:01 CEST,Microsoft Jumpstart,https://www.medion.com/at/shop/microsoft-jumpstart,51.0,OK
+2026-09-09 14:22:01 CEST,Luftreiniger Alle,https://www.medion.com/at/shop/luftreiniger-alle,377.0,OK
+2026-09-09 14:22:01 CEST,Laptop & PC Week,https://www.medion.com/at/shop/lp/laptop-pc-week,23.0,OK
+2026-09-09 14:22:01 CEST,Intel Produkte,https://www.medion.com/at/shop/lp/intel-produkte,30.0,OK
+2026-09-09 14:22:01 CEST,Intel PC,https://www.medion.com/at/shop/lp/intel-pc,11.0,OK
+2026-09-09 14:22:01 CEST,Intel Games Bundle Produkte,https://www.medion.com/at/shop/lp/intel-games-bundle-produkte,18.0,OK
+2026-09-09 14:22:01 CEST,Lieferung bis Weihnachten,https://www.medion.com/at/shop/lieferung-bis-weihnachten,377.0,OK
+2026-09-09 14:22:01 CEST,Lenovo Produkte,https://www.medion.com/at/shop/lenovo-produkte,4.0,OK
+2026-09-09 14:22:01 CEST,Lautsprecher,https://www.medion.com/at/shop/lautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Laptop-Zubehör,https://www.medion.com/at/shop/laptops/zubehoer,5.0,OK
+2026-09-09 14:22:01 CEST,SPRCHRGD Laptops,https://www.medion.com/at/shop/laptops/sprchrgd,2.0,OK
+2026-09-09 14:22:01 CEST,Multimedia-Laptops,https://www.medion.com/at/shop/laptops/multimedia,11.0,OK
+2026-09-09 14:22:01 CEST,KI gestützte Laptops,https://www.medion.com/at/shop/laptops/ki,3.0,OK
+2026-09-09 14:22:01 CEST,Intel Core i7,https://www.medion.com/at/shop/laptops/intel-core-i7,4.0,OK
+2026-09-09 14:22:01 CEST,Intel Core i5,https://www.medion.com/at/shop/laptops/intel-core-i5,2.0,OK
+2026-09-09 14:22:01 CEST,Intel Core Laptops,https://www.medion.com/at/shop/laptops/intel-core,18.0,OK
+2026-09-09 14:22:01 CEST,Homeoffice Laptops,https://www.medion.com/at/shop/laptops/homeoffice,12.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger-Laptops,https://www.medion.com/at/shop/laptops/einsteiger,1.0,OK
+2026-09-09 14:22:01 CEST,Laptops Angebote,https://www.medion.com/at/shop/laptops/angebote,7.0,OK
+2026-09-09 14:22:01 CEST,AMD Ryzen,https://www.medion.com/at/shop/laptops/amd-ryzen,4.0,OK
+2026-09-09 14:22:01 CEST,18'' Laptops,https://www.medion.com/at/shop/laptops/18-zoll,1.0,OK
+2026-09-09 14:22:01 CEST,17'' Laptops,https://www.medion.com/at/shop/laptops/17-zoll,6.0,OK
+2026-09-09 14:22:01 CEST,16'' Laptops,https://www.medion.com/at/shop/laptops/16-zoll,377.0,OK
+2026-09-09 14:22:01 CEST,15'' Laptops,https://www.medion.com/at/shop/laptops/15-zoll,2.0,OK
+2026-09-09 14:22:01 CEST,14'' Laptops,https://www.medion.com/at/shop/laptops/14-zoll,4.0,OK
+2026-09-09 14:22:01 CEST,Alle Laptops,https://www.medion.com/at/shop/laptops,12.0,OK
+2026-09-09 14:22:01 CEST,Kühlen & Gefrieren,https://www.medion.com/at/shop/kuehlen-gefrieren,20.0,OK
+2026-09-09 14:22:01 CEST,Küchenkleingeräte,https://www.medion.com/at/shop/kuechenkleingeraete,65.0,OK
+2026-09-09 14:22:01 CEST,Reinigungsgeräte,https://www.medion.com/at/shop/kuechengeraete-reinigung,23.0,OK
+2026-09-09 14:22:01 CEST,Kochen & Zubereiten,https://www.medion.com/at/shop/kuechengeraete-kochen,63.0,OK
+2026-09-09 14:22:01 CEST,Frühstück,https://www.medion.com/at/shop/kuechengeraete-fruehstueck,11.0,OK
+2026-09-09 14:22:01 CEST,Wasserkocher,https://www.medion.com/at/shop/kueche/wasserkocher,4.0,OK
+2026-09-09 14:22:01 CEST,Toaster,https://www.medion.com/at/shop/kueche/toaster,4.0,OK
+2026-09-09 14:22:01 CEST,Mini-Kühlschrank,https://www.medion.com/at/shop/kueche/mini-kuehlschraenke,4.0,OK
+2026-09-09 14:22:01 CEST,Mikrowellen,https://www.medion.com/at/shop/kueche/mikrowellen,22.0,OK
+2026-09-09 14:22:01 CEST,Kühlschränke,https://www.medion.com/at/shop/kueche/kuehlschraenke,8.0,OK
+2026-09-09 14:22:01 CEST,Kühl- & Gefrierschränke,https://www.medion.com/at/shop/kueche/kuehl-gefrierschraenke,4.0,OK
+2026-09-09 14:22:01 CEST,Küchenmaschinen,https://www.medion.com/at/shop/kueche/kuechenmaschinen,9.0,OK
+2026-09-09 14:22:01 CEST,Kaffeemaschinen,https://www.medion.com/at/shop/kueche/kaffeemaschinen,3.0,OK
+2026-09-09 14:22:01 CEST,Induktionskochplatten,https://www.medion.com/at/shop/kueche/induktionskochplatten,6.0,OK
+2026-09-09 14:22:01 CEST,doppelkammer,https://www.medion.com/at/shop/kueche/heissluftfritteusen/doppelkammer,4.0,OK
+2026-09-09 14:22:01 CEST,Heissluftfritteusen Produkte,https://www.medion.com/at/shop/kueche/heissluftfritteusen,19.0,OK
+2026-09-09 14:22:01 CEST,Grills,https://www.medion.com/at/shop/kueche/grills,1.0,OK
+2026-09-09 14:22:01 CEST,Gefrierschränke,https://www.medion.com/at/shop/kueche/gefrierschraenke,6.0,OK
+2026-09-09 14:22:01 CEST,Eiswürfelmaschinen,https://www.medion.com/at/shop/kueche/eiswuerfelmaschinen,2.0,OK
+2026-09-09 14:22:01 CEST,Brotbackautomaten,https://www.medion.com/at/shop/kueche/brotbackautomaten,2.0,OK
+2026-09-09 14:22:01 CEST,Küchen-Angebote,https://www.medion.com/at/shop/kueche/angebote,31.0,OK
+2026-09-09 14:22:01 CEST,Alle Küchengeräte,https://www.medion.com/at/shop/kueche/alle,89.0,OK
+2026-09-09 14:22:01 CEST,Küchen-Produkte,https://www.medion.com/at/shop/kueche,89.0,OK
+2026-09-09 14:22:01 CEST,Kopfhörer,https://www.medion.com/at/shop/kopfhoerer,8.0,OK
+2026-09-09 14:22:01 CEST,Fitness & Gesundheit,https://www.medion.com/at/shop/koerperpflege-gesundheit,8.0,OK
+2026-09-09 14:22:01 CEST,Kochen & Backen,https://www.medion.com/at/shop/kochen-backen,57.0,OK
+2026-09-09 14:22:01 CEST,Klimageräte,https://www.medion.com/at/shop/klimageraete,2.0,OK
+2026-09-09 14:22:01 CEST,Wecker,https://www.medion.com/at/shop/kategorie-wecker,3.0,OK
+2026-09-09 14:22:01 CEST,Inventur Sale,https://www.medion.com/de/shop/inventur-sale,69.0,OK
+2026-09-09 14:22:01 CEST,Internetradios,https://www.medion.com/at/shop/internetradios,7.0,OK
+2026-09-09 14:22:01 CEST,Intel® Core™ Ultra Prozessoren,https://www.medion.com/at/shop/intel-core-ultra-series-2-produkte,24.0,OK
+2026-09-09 14:22:01 CEST,Intel Core PCs,https://www.medion.com/at/shop/intel-core-pcs,2.0,OK
+2026-09-09 14:22:01 CEST,Intel Core Gaming Laptops,https://www.medion.com/at/shop/intel-core-gaming-laptops,2.0,OK
+2026-09-09 14:22:01 CEST,Intel 13 Alle,https://www.medion.com/at/shop/intel-13-alle,6.0,OK
+2026-09-09 14:22:01 CEST,Hobby & Freizeit,https://www.medion.com/at/shop/hobby-und-freizeit,12.0,OK
+2026-09-09 14:22:01 CEST,High End Gaming PCs,https://www.medion.com/at/shop/high-end-gaming-pc,9.0,OK
+2026-09-09 14:22:01 CEST,High End Gaming Notebooks,https://www.medion.com/at/shop/high-end-gaming-notebooks,6.0,OK
+2026-09-09 14:22:01 CEST,Heizen & Kühlen,https://www.medion.com/at/shop/heizen-kuehlen,9.0,OK
+2026-09-09 14:22:01 CEST,Haushalt-Zubehör,https://www.medion.com/at/shop/haushalt-zubehoer,57.0,OK
+2026-09-09 14:22:01 CEST,Alexa Haushalt,https://www.medion.com/at/shop/haushalt-alexa,11.0,OK
+2026-09-09 14:22:01 CEST,Alle Reinigungsgeräte,https://www.medion.com/at/shop/haushalt/reinigungsgeraete,23.0,OK
+2026-09-09 14:22:01 CEST,Polsterreiniger,https://www.medion.com/at/shop/haushalt/polsterreiniger,1.0,OK
+2026-09-09 14:22:01 CEST,Overlock Nähmaschinen,https://www.medion.com/at/shop/haushalt/naehmaschinen/overlock,2.0,OK
+2026-09-09 14:22:01 CEST,Freiarm Nähmaschinen,https://www.medion.com/at/shop/haushalt/naehmaschinen/freiarm,4.0,OK
+2026-09-09 14:22:01 CEST,Digitale Nähmaschinen,https://www.medion.com/at/shop/haushalt/naehmaschinen/digital,2.0,OK
+2026-09-09 14:22:01 CEST,Luftentfeuchter,https://www.medion.com/at/shop/haushalt/luftentfeuchter,3.0,OK
+2026-09-09 14:22:01 CEST,Kühlboxen,https://www.medion.com/at/shop/haushalt/kuehlboxen,4.0,OK
+2026-09-09 14:22:01 CEST,Haushalt- & Freizeit-Angebote,https://www.medion.com/at/shop/haushalt/angebote,25.0,OK
+2026-09-09 14:22:01 CEST,Handstaubsauger,https://www.medion.com/at/shop/handstaubsauger,5.0,OK
+2026-09-09 14:22:01 CEST,Haartrockner,https://www.medion.com/at/shop/haarpflege/haartrockner,2.0,OK
+2026-09-09 14:22:01 CEST,Glätteisen,https://www.medion.com/at/shop/haarpflege/glaetteisen,4.0,OK
+2026-09-09 14:22:01 CEST,Glättbürsten,https://www.medion.com/at/shop/haarpflege/glaettbuersten,2.0,OK
+2026-09-09 14:22:01 CEST,Haarpflege,https://www.medion.com/at/shop/haarpflege,8.0,OK
+2026-09-09 14:22:01 CEST,Geschirrspüler,https://www.medion.com/at/shop/geschirrspueler,2.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 400 Euro,https://www.medion.com/at/shop/geschenke-bis-400-euro,63.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 250€,https://www.medion.com/at/shop/geschenke-bis-250-euro,156.0,OK
+2026-09-09 14:22:01 CEST,Geschenke bis 100€,https://www.medion.com/at/shop/geschenke-bis-100-euro,161.0,OK
+2026-09-09 14:22:01 CEST,Geschenke ab 400 Euro,https://www.medion.com/at/shop/geschenke-ab-400-euro,50.0,OK
+2026-09-09 14:22:01 CEST,Garten Angebote,https://www.medion.com/at/shop/garten-angebote,17.0,OK
+2026-09-09 14:22:01 CEST,Garantierte Lieferung,https://www.medion.com/at/shop/garantierte-lieferung,377.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Zubehör,https://www.medion.com/at/shop/gaming-zubehoer,3.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Monitore,https://www.medion.com/at/shop/gaming-monitore,3.0,OK
+2026-09-09 14:22:01 CEST,Slush Eis Maschine,https://www.medion.com/de/shop/kueche/slush-eis-maschine,6.0,OK
+2026-09-09 14:22:01 CEST,Alle Gaming Produkte,https://www.medion.com/at/shop/gaming-alle,36.0,OK
+2026-09-09 14:22:01 CEST,Gaming-Laptops,https://www.medion.com/at/shop/gaming/laptop,14.0,OK
+2026-09-09 14:22:01 CEST,Gaming Angebote,https://www.medion.com/at/shop/gaming/angebote,13.0,OK
+2026-09-09 14:22:01 CEST,Frühjahrsputz,https://www.medion.com/at/shop/fruehjahrsputz,23.0,OK
+2026-09-09 14:22:01 CEST,weitere Modelle,https://www.medion.com/at/shop/fm-radios,17.0,OK
+2026-09-09 14:22:01 CEST,Festival,https://www.medion.com/at/shop/festival,27.0,OK
+2026-09-09 14:22:01 CEST,Heimkinosystem,https://www.medion.com/at/shop/entertainment,4.0,OK
+2026-09-09 14:22:01 CEST,Eismaschinen,https://www.medion.com/at/shop/eismaschinen,6.0,OK
+2026-09-09 14:22:01 CEST,Einsteiger PC,https://www.medion.com/at/shop/einsteiger-pc,1.0,OK
+2026-09-09 14:22:01 CEST,Drucker & Patronen,https://www.medion.com/at/shop/drucker,2.0,OK
+2026-09-09 14:22:01 CEST,Desktop-PCs,https://www.medion.com/at/shop/desktop-pcs,1.0,OK
+2026-09-09 14:22:01 CEST,DAB Radios,https://www.medion.com/at/shop/dab-radios,23.0,OK
+2026-09-09 14:22:01 CEST,Core Gaming PCs,https://www.medion.com/at/shop/core-gaming-pc,7.0,OK
+2026-09-09 14:22:01 CEST,Core Gaming Notebooks,https://www.medion.com/at/shop/core-gaming-notebooks,8.0,OK
+2026-09-09 14:22:01 CEST,PC-Zubehör,https://www.medion.com/at/shop/computer-zubehoer,6.0,OK
+2026-09-09 14:22:01 CEST,Camping,https://www.medion.com/at/shop/camping,30.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Tablet,https://www.medion.com/at/shop/btu-tablets,2.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Radio,https://www.medion.com/at/shop/btu-radios,34.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Frühstück,https://www.medion.com/at/shop/btu-fruehstuecken,10.0,OK
+2026-09-09 14:22:01 CEST,Back to Uni Freizeit,https://www.medion.com/at/shop/btu-freizeit,43.0,OK
+2026-09-09 14:22:01 CEST,Bodenreiniger,https://www.medion.com/at/shop/bodenreiniger,2.0,OK
+2026-09-09 14:22:01 CEST,Bluetooth Lautsprecher,https://www.medion.com/at/shop/bluetooth-lautsprecher,12.0,OK
+2026-09-09 14:22:01 CEST,Back to School,https://www.medion.com/at/shop/back-to-school,23.0,OK
+2026-09-09 14:22:01 CEST,Alle Audio Produkte,https://www.medion.com/at/shop/audio-alle,65.0,OK
+2026-09-09 14:22:01 CEST,Bluetooth-Kopfhörer,https://www.medion.com/at/shop/audio/bluetooth-kopfhoerer,377.0,OK
+2026-09-09 14:22:01 CEST,Audio Angebote,https://www.medion.com/at/shop/audio/angebote,22.0,OK
+2026-09-09 14:22:01 CEST,Angebote bei MEDION,https://www.medion.com/at/shop/angebote,114.0,OK
+2026-09-09 14:22:01 CEST,All-in-One-PCs,https://www.medion.com/at/shop/all-in-one-pc,2.0,OK
+2026-09-09 14:22:01 CEST,Alle PCs,https://www.medion.com/at/shop/alle-pcs,9.0,OK
+2026-09-09 14:22:01 CEST,Alexa,https://www.medion.com/at/shop/alexa,11.0,OK
+2026-09-09 14:22:01 CEST,Akoya PCs,https://www.medion.com/at/shop/akoya-pcs,1.0,OK
+2026-09-09 14:22:01 CEST,Akku-Stielstaubsauger,https://www.medion.com/at/shop/akku-stielstaubsauger,8.0,OK
+2026-09-09 14:22:01 CEST,Blue Days,https://www.medion.com/at/shop/blue-days,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Weekend-Sale,https://www.medion.com/at/shop/weekend-sale,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Blue Days,https://www.medion.com/de/shop/blue-days,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Gaming Days,https://www.medion.com/de/shop/gaming-days,,NOT_FOUND
+2026-09-09 14:22:01 CEST,Weekend Sale,https://www.medion.com/de/shop/weekend-sale,,NOT_FOUND
