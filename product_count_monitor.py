@@ -493,7 +493,7 @@ def main():
   if not df_old.empty:
     for url in df_new["url"].unique():
       prev = df_old[df_old["url"] == url].tail(1)
-      cur = df_new[df_new["url"] == url].tail(1)
+      curr = df_new[df_new["url"] == url].tail(1)
       if prev.empty or curr.empty:
         continue
       prev_count = prev["product_count"].values[0]
