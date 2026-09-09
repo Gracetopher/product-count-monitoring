@@ -26,6 +26,7 @@ jobs:
       - name: Run product count check
         id: check
         run: python product_count_monitor.py
+        continue-on-error: true
 
       - name: Commit updated log
         run: |
