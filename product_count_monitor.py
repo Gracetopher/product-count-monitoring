@@ -2,6 +2,7 @@
 Product Count Monitor
 ====================
 Check listing-page URLs, extract visible product count and append result to csv log in data/product_count_log.csv
+Note - because of FF Anbindung, 0 results is shown as full catalog. Only 9 urls as of 9.9.2026 have a catalog larger than 100 to show, so an attempt happens here to identify the real 0's by filtering those out and looking at anything above 150
 """
 
 import os
@@ -436,6 +437,20 @@ HEADERS = {
 }
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "product_count_log.csv")
+#workaround for full catalog bug - raw count above threshhold is treated as that fallback and logged as 0, EXCEPT URLs listed below, which are known to legitimately have large product counts in this range
+
+SENTINEL_THRESHOLD = 150
+
+KNOWN_LARGE_CATALOG_URLS = {
+  {"name": "Versandkostenfrei","url": "https://www.medion.com/de/shop/versandkostenfrei"},
+  {"name": "Paypal null Prozent Finanzierung","url": "https://www.medion.com/de/shop/paypal-null-prozent-finanzierung"},
+  {"name": "Geschenke bis 250€","url": "https://www.medion.com/de/shop/geschenke-bis-250-euro"},
+  {"name": "Geschenke bis 100€","url": "https://www.medion.com/de/shop/geschenke-bis-100-euro"},
+  {"name": "Angebote bei MEDION","url": "https://www.medion.com/de/shop/angebote"},
+  {"name": "Versandkostenfrei","url": "https://www.medion.com/at/shop/versandkostenfrei"},
+  {"name": "Geschenke bis 250€","url": "https://www.medion.com/at/shop/geschenke-bis-250-euro"},
+  {"name": "Geschenke bis 100€","url": "https://www.medion.com/at/shop/geschenke-bis-100-euro"},
+  {"name": "Angebote bei MEDION","url": "https://www.medion.com/at/shop/angebote"},
 
 def get_product_count(url: str):
   """Fetch a page and pull out first number matching COUNT_PATTERN"""
@@ -472,6 +487,19 @@ def run_check() -> pd.DataFrame:
       "status": status,
     })
   return pd.DataFrame(rows)
+
+  #---- Detect and zero-out the "show-everything" bug----
+  df["product_count"] = df["raw_product_count"]
+  df["is_sentinel"] = (df["raw_product_count"] > SENTINEL_THRESHOLD) & (
+    ~df["url"].isin(KNOWN_LARGE_CATALOG_URLS)
+    )
+  df.loc[df["is_sentinel"], "product_count"] = 0
+
+  # Nullable integer dtype so whole numbers never render as "22.0"
+  df["raw_product_count"] = df["raw_product_count"].astype("Int64")
+  df["product_count"] = df["product_count"].astype("Int64")
+
+  return df
 
 def main():
   os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
@@ -511,6 +539,18 @@ def main():
   if step_summary_file:
     with open(step_summary_file, "a") as f:
       f.write(summary + "\n")
+
+  # ---- Hand off to the workflow: only trigger the email step if something changed ----
+  changed = bool(alert_lines)
+  github_output = os.environ.get("GITHUB_OUTPUT")
+  if github_output:
+    with open(github_output, "a") as f:
+      f.write(f"changed={'true' if changed else 'false'}\n")
+
+  if changed:
+    with open("alert_body.txt", "w") as f:
+      f.write("The following listing pages changed stock status:\n\n")
+      f.write("\n".join(alert_lines))
 
 if __name__ == "__main__":
   main()
