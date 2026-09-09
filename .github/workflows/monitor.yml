@@ -3,7 +3,7 @@ name: Product Count Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write   # needed so the workflow can commit the updated CSV log
@@ -26,7 +26,8 @@ jobs:
       - name: Run product count check
         id: check
         run: python product_count_monitor.py
-        continue-on-error: true
+        # NOTE: no continue-on-error here on purpose - if the script fails,
+        # you want the workflow run to show red so you actually notice.
 
       - name: Commit updated log
         run: |
@@ -36,7 +37,8 @@ jobs:
           git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date +'%Y-%m-%d %H:%M %Z')"
           git push
 
-      # Only fires when the python script detected a 0 <-> non-zero transition on at least one URL (see `changed` output above)).
+      # Only fires when the python script detected a 0 <-> non-zero
+      # transition on at least one URL (see the `changed` output above).
       - name: Send alert email
         if: steps.check.outputs.changed == 'true'
         uses: dawidd6/action-send-mail@v3
