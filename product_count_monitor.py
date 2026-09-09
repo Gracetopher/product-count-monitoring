@@ -447,7 +447,7 @@ def get_product_count(url: str):
   if not match:
     return None, "NOT_FOUND"
 
-  raw = match.group(1).replace(".", "").repoace(",", "")
+  raw = match.group(1).replace(".", "").replace(",", "")
   try:
     return int(raw), "OK"
   except ValueError:
