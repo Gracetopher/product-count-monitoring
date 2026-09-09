@@ -436,22 +436,22 @@ def get_product_count(url: str):
   """Fetch a page and pull out first number matching COUNT_PATTERN"""
   try:
     resp = requests.get(url, headers=HEADERS, timeout=15)
-    resp.rais_for_status()
+    resp.raise_for_status()
   except Exception as e:
     return None, f"ERROR: {e}"
 
-soup = BeautifulSoup(resp.text, "html.parser")
-text = soup.get_text(separator=" ", strip=True)
-match = COUNT_PATTERN.search(text)
+  soup = BeautifulSoup(resp.text, "html.parser")
+  text = soup.get_text(separator=" ", strip=True)
+  match = COUNT_PATTERN.search(text)
 
-if not match:
-  return None, "NOT_FOUND"
+  if not match:
+    return None, "NOT_FOUND"
 
-raw = match.group(1).replace(".", "").repoace(",", "")
-try:
-  return int(raw), "OK"
-except ValueError:
-  return None, "PARSE_ERROR"
+  raw = match.group(1).replace(".", "").repoace(",", "")
+  try:
+    return int(raw), "OK"
+  except ValueError:
+    return None, "PARSE_ERROR"
 
 def run_check() -> pd.DataFrame:
   now_local = datetime.now(LOCAL_TZ)
