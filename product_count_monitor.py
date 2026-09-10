@@ -2,8 +2,8 @@
 Product Count Monitor
 ======================
 Checks listing-page URLs, extracts the visible product count, and
-appends the result to data/product_count_log.csv and writes a per-URL
-summary to data/product_count_summary.csv.
+appends the result to data/product_count_log.tsv and writes a per-URL
+summary to data/product_count_summary.tsv.
 
 Note - because of the FF Anbindung, a listing with 0 real results
 falls back to showing the full catalog count instead of 0. As of
@@ -445,8 +445,14 @@ HEADERS = {
     )
 }
 
-CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "product_count_log.csv")
-SUMMARY_CSV_PATH = os.path.join(
+TSV_PATH = os.path.join(os.path.dirname(__file__), "data", "product_count_log.tsv")
+SUMMARY_TSV_PATH = os.path.join(
+    os.path.dirname(__file__), "data", "product_count_summary.tsv"
+)
+LEGACY_CSV_PATH = os.path.join(
+    os.path.dirname(__file__), "data", "product_count_log.csv"
+)
+LEGACY_SUMMARY_CSV_PATH = os.path.join(
     os.path.dirname(__file__), "data", "product_count_summary.csv"
 )
 
@@ -563,22 +569,39 @@ def build_summary(df_all: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
-    os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
-    df_old = pd.read_csv(CSV_PATH) if os.path.exists(CSV_PATH) else pd.DataFrame()
+    os.makedirs(os.path.dirname(TSV_PATH), exist_ok=True)
+    if os.path.exists(TSV_PATH):
+        df_old = pd.read_csv(TSV_PATH, sep="\t", decimal=",")
+    elif os.path.exists(LEGACY_CSV_PATH):
+        # One-time migration: preserve the young CSV history when switching to TSV.
+        df_old = pd.read_csv(LEGACY_CSV_PATH)
+    else:
+        df_old = pd.DataFrame()
     df_old = normalize_history(df_old)
     if not df_old.empty:
         df_old["product_count"] = df_old["product_count"].astype("Int64")
 
     df_new = run_check()
     df_all = pd.concat([df_old, df_new], ignore_index=True) if not df_old.empty else df_new
-    df_all.to_csv(CSV_PATH, index=False)
-    build_summary(df_all).to_csv(
-        SUMMARY_CSV_PATH,
+    df_all.to_csv(
+        TSV_PATH,
         index=False,
-        sep=";",
+        sep="\t",
         decimal=",",
         encoding="utf-8-sig",
     )
+    build_summary(df_all).to_csv(
+        SUMMARY_TSV_PATH,
+        index=False,
+        sep="\t",
+        decimal=",",
+        encoding="utf-8-sig",
+    )
+
+    # Remove superseded CSVs only after both TSV exports succeed.
+    for legacy_path in (LEGACY_CSV_PATH, LEGACY_SUMMARY_CSV_PATH):
+        if os.path.exists(legacy_path):
+            os.remove(legacy_path)
 
     # ---- Readable summary for the Actions "Summary" tab ----
     lines = ["# Product Count Check", "", "| Name | URL | Count | Raw | Status |", "|---|---|---|---|---|"]
