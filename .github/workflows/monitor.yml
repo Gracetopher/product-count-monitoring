@@ -3,7 +3,7 @@ name: Product Count Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "27 * * * *"
+    - cron: "34 * * * *"
 
 permissions:
   contents: write
