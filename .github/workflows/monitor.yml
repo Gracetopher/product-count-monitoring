@@ -3,7 +3,7 @@ name: Product Count Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "27 * * * *"
 
 permissions:
   contents: write   # needed so the workflow can commit the updated CSV log
