@@ -6,7 +6,7 @@ on:
     - cron: "27 * * * *"
 
 permissions:
-  contents: write   # needed so the workflow can commit the updated CSV log
+  contents: write   # needed so the workflow can commit the updated TSV log
 
 jobs:
   check-product-counts:
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "product-count-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/product_count_log.csv data/product_count_summary.csv
+          git add -A data/
           git diff --quiet --cached || git commit -m "Update product count log $(TZ='Europe/Berlin' date +'%Y-%m-%d %H:%M %Z')"
           git push
           
