@@ -573,7 +573,6 @@ KNOWN_LARGE_CATALOG_URLS = {
     "https://www.medion.com/de/shop/paypal-null-prozent-finanzierung",
     "https://www.medion.com/de/shop/versandkostenfrei",}
 
-
 def get_product_count(url: str):
     """Fetch a page and pull out the first number matching COUNT_PATTERN."""
     try:
@@ -641,7 +640,7 @@ def normalize_history(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_summary(df_all: pd.DataFrame) -> pd.DataFrame:
-    """Return lifetime average and latest product count for every URL."""
+    """Return lifetime average, range, and latest product count for every URL."""
     latest = (
         df_all.sort_values("timestamp_CEST")
         .groupby("url", as_index=False, sort=False)
@@ -651,20 +650,29 @@ def build_summary(df_all: pd.DataFrame) -> pd.DataFrame:
             "timestamp_CEST": "latest_timestamp_CEST",
         })
     )
-    averages = (
+    historical_stats = (
         df_all.groupby("url", as_index=False, sort=False)["product_count"]
-        .mean()
-        .rename(columns={"product_count": "average_product_count"})
+        .agg(["mean", "min", "max"])
+        .reset_index()
+        .rename(columns={
+            "mean": "average_product_count",
+            "min": "historical_min_product_count",
+            "max": "historical_max_product_count",
+        })
     )
-    summary = latest.merge(averages, on="url", how="left")
+    summary = latest.merge(historical_stats, on="url", how="left")
     summary = summary[[
         "name",
         "url",
         "average_product_count",
+        "historical_min_product_count",
+        "historical_max_product_count",
         "latest_product_count",
         "latest_timestamp_CEST",
     ]]
     summary["average_product_count"] = summary["average_product_count"].round(2)
+    summary["historical_min_product_count"] = summary["historical_min_product_count"].astype("Int64")
+    summary["historical_max_product_count"] = summary["historical_max_product_count"].astype("Int64")
     summary["latest_product_count"] = summary["latest_product_count"].astype("Int64")
     return summary.sort_values(["name", "url"], kind="stable")
 
